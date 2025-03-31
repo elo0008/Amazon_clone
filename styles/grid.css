@@ -1,0 +1,450 @@
+.bg-image{
+    width: 100%;
+}
+
+.bg-image2{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+    margin: 0;
+}
+
+.bg-image-container{
+    position: relative;
+    width: 100%;
+}
+
+.gradient{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: linear-gradient( to top, rgb(224, 224, 224), rgba(0, 0, 0, 0));
+}
+
+.main-section{
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;  
+    margin-left: 20px;
+    margin-right: 15px;
+    vertical-align: top;
+    row-gap: 20px;
+}
+
+.products-grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    top: 350px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 15px;
+    vertical-align: top;
+    row-gap: 20px;
+}
+
+.product-preview{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.product-pics-container,
+.product-pics-container-2,
+.product-pics-container-3,
+.product-pics-container-special{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.product-pics-container-2{
+    margin-bottom: 16px;
+    row-gap: 10px;
+    cursor: pointer;
+}
+
+.product-pics-container-3{
+    row-gap: 10px;  
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.product-pics-container-3 .product-text-container{
+    padding-bottom: 0px;
+}
+
+.product-title,
+.slide-top-text{
+    font-family: "IBM Plex Sans";
+    font-size: 21px;
+    font-weight: bold;
+    margin: 20px;
+    margin-bottom: 10px;
+    color: #0f1111;
+    line-height: 28px;
+}
+    
+.product-pics,
+.product-pics-special{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.product-text-container,
+.product-text-container-special{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.product-texts{
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    color: #4b4b4b; 
+}
+
+.bottom-product-text{
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-weight: bolder;
+    color: #3094ad; 
+    padding-left: 20px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+.bottom-product-text:active{
+    color: chocolate;
+}
+
+.product-pics-special{
+    height: 114px;
+}
+
+.product-pics-container-special-2{
+    row-gap: 10px;
+}
+
+.sign-in-container{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-container-text{
+    font-family: "IBM Plex Sans";
+    font-size: 21px;
+    font-weight: bold;
+    color: #0f1111;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.sign-in-secure {
+    background-color: rgb(255, 217, 0);
+    border: none;
+    font-size: 13px;
+    font-family: "Open Sans"; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.product-slide{
+    background-color: white;
+}
+
+.horizontal-slide-container{
+    background-color: rgb(255, 255, 255);
+    height: min-content;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+
+}
+
+.slide-title{
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+
+.slide-small-text{
+    color: #3094ad;
+    font-size: 15px;
+    font-family: "Open Sans";
+}
+
+.slide-img-containers{
+    padding: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.blockbuster-slide{
+    background-color: #ffd77d;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.bs{
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #ffd77d;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.tech-products-slide-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 240px 240px 240px 240px 240px 240px 240px 240px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    column-gap: 13px;
+}
+
+.footer-copy .blockbuster-slide .tech-products-slide-container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.tech-product-img-text-container{
+    width: 240px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    border-radius: 5px;
+}
+
+.tech-image{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.blockbuster-slide .product-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.blockbuster{
+    font-family: "IBM Plex Sans";
+    font-size: 21px;
+    font-weight: bold;
+    color: #0f1111;
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 25px;
+    background-color: #ffd77d;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.tech-product-text-container{
+    padding: 10px 0px 10px 5px;
+    cursor: pointer;
+}
+
+.offer-text{
+    font-size: 12px;
+    font-family: "open sans";
+    margin-bottom: 5px;
+}
+
+.off{
+    background-color: #CC0C39;
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.gif{
+    color: #CC0C39;
+    font-weight: bold;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.org-price{
+    font-family: "open sans";
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.rs-symbol{
+    font-size: 12px;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+
+.cents{
+    font-size: 10px;
+    position: absolute;
+    top: 3px;
+    right: -1px;
+}
+
+.mrp{
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+    padding-left: 5px;
+    font-family: "open sans";
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 2px;
+}
+
+.descript{
+    color: rgb(56, 56, 56);
+    font-size: 12px;
+    padding-left: 0px;
+    font-family: "open sans"; 
+    font-weight: 600;
+}
+
+.tech-product-slide-main{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.last-info{
+    display: grid;
+    grid-template-columns: 120px 120px 190px 170px;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #232f3e;
+    padding: 30px;
+    padding-right: 170px;
+    padding-left: 170px;
+    
+}
+
+.li-t{
+    color: white;
+    font-family: "open sans";
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.p{
+    color: rgb(214, 214, 214);
+    font-family: "open sans";
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.product-pics-container-4{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+
+.last-info-2{
+    display: grid;
+    grid-template-columns: 100px 140px 120px 200px;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #101b29;
+    padding: 30px;
+    padding-right: 170px;
+    padding-left: 170px;
+    row-gap: 20px;
+}
+
+.li-t2{
+    color: white;
+    font-family: "open sans";
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.p2{
+    color: rgb(158, 158, 158);
+    font-family: "open sans";
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.copyright{
+    background-color: #101b29;
+    color: white;
+    font-family: "open sans";
+    font-size: 12px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.three{
+    display: grid;
+    grid-template-columns: 150px 100px 150px;
+    justify-content: space-between;
+    margin-right: 500px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+}
+
+.p:hover, .three span:hover, 
+.last-info-2 .p2:hover,
+.bottom-product-text:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:899px){
+    .products-grid, .products-grid-2{
+      grid-template-columns: 1fr 1fr;
+    }
+      
+}
+
+@media (min-width:900px) and (max-width:1299px){
+    .products-grid, .products-grid-2{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .sign-in-container, #remove-1, #remove-2, #remove-3{
+        display: none;
+    }
+}
+
+@media (min-width: 1300px) {
+    .products-grid, .products-grid-2{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+  

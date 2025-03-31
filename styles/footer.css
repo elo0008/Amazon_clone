@@ -1,0 +1,113 @@
+.footer{
+    margin-top: 25px;
+    height: min-content;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.footer-box{
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-title{
+    font-family: "IBM Plex Sans";
+    font-size: 21px;
+    font-weight: bold;
+    color: #0f1111;
+    padding: 10px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.footer-copy .tech-products-slide-container,
+.footer-copy .blockbuster-slide{
+    background-color: white;
+}
+
+.footer-copy .blockbuster-slide{
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+
+.button-text-container{
+    text-align: center;
+}
+
+.pf1{
+    font-family: "IBM Plex Sans";
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #0f1111;
+    cursor: pointer;
+}
+
+.pf2{
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: #0f1111;
+    cursor: pointer;
+}
+
+.sign-in-footer {
+  border: 0;
+  background-color: #f3f3f3;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(50%, #dddddd), color-stop(50%, #d2d2d2), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+  background-image: -moz-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+  background-image: -ms-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+  background-image: -o-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+  background-image: linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+  border-bottom: 1px solid #b4b4b4;
+  border-right: 1px solid #dfdfdf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
+  -moz-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
+  box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
+  color: #666;
+  font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 7px 0;
+  text-shadow: 0 1px 1px #fff;
+  width: 280px;
+}
+.sign-in-footer:hover {
+  background-color: #e5e5e5;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(50%, #d1d1d1), color-stop(50%, #c4c4c4), color-stop(100%, #b8b8b8));
+  background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+  background-image: -moz-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+  background-image: -ms-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+  background-image: -o-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+  background-image: linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+  -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
+  -moz-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
+  box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
+  cursor: pointer;
+}
+.sign-in-footer:active {
+  -webkit-box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 rgba(255, 255, 255, .1);
+  -moz-box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 rgba(255, 255, 255, .1);
+  box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 rgba(255, 255, 255, .1);
+}
+
+.back2top{
+    background-color: #37475a;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}

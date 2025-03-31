@@ -1,0 +1,336 @@
+.extra-lists{
+    position: absolute;
+    height: 415px;
+    width: 480px;
+    background-color: white;
+    bottom: -414px;
+    left: -250px;
+    border-radius: 3px;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity, .15s;
+}
+
+.black-bg{
+    position: absolute;
+    top: 55px;
+    bottom: -1000px;
+    left: -1200px;
+    right: -1000px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+    transition: background-color, .15s;
+}
+
+.sign-in-button{
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 60px 5px 60px;
+    margin: 0px 120px 0px 120px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sign-in-button:hover {
+    opacity: .75;
+}
+
+.extra-lists .sign-in-container{
+    text-align: center;
+}
+
+#sign-in-thing:hover .extra-lists{
+    opacity: 1;
+    pointer-events: all;
+}
+
+#sign-in-thing:hover .black-bg{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#sign-in-thing:hover .tail{
+    opacity: 1;
+}
+
+.q{
+    display: flex;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(143, 143, 143);
+    border-radius: 50px;
+}
+
+.q{
+    display: flex;
+    column-gap: 70px;
+    justify-content:space-between;
+    justify-content: center;
+    align-items: top;
+    margin: 0px 20px;
+}
+
+.qt{
+    flex: 1;
+    height: min-content;
+    font-family: 'Open Sans';
+}
+
+.qtm{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.qts{
+    color: rgb(73, 73, 73);
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.qts:hover, .s:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+
+.s{
+    color: rgb(0, 97, 136);
+}
+
+.sign-in-container-extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.sign-in-container-extra .pf2{
+    margin-bottom: 5px;
+}
+
+.vl{
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    height: 310px;
+    position: absolute;
+    left: 50%;
+    margin-top: 90px;
+    top: 0;
+}
+
+.tail{
+    position: absolute;
+    height: 10px;
+    bottom: 0px;
+    right: 10px;
+    opacity: 0;
+    transition: opacity, .15s;
+}
+
+.pext{
+    position: absolute;
+    width: 275px;
+    z-index: 500;
+    bottom:-294px;
+    left: 0px;
+    border: 10px solid white;
+    border-radius: 3px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity, .15s;
+}
+
+#p{
+    position: relative;
+}
+
+.black-bg-2{
+    position: absolute;
+    top: 40px;
+    bottom: -1200px;
+    left:-1200px;
+    right: -1000px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 400;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity, .15s;
+}
+
+.tail2{
+    position: absolute;
+    height: 10px;
+    bottom: 0px;
+    right: 9px;
+    opacity: 0;
+    transition: opacity, .15s;
+}
+
+#p:hover .pext,
+#p:hover .tail2,
+#p:hover .black-bg-2{
+    opacity: 1;   
+}
+
+#p:hover .pext{
+    pointer-events: all;
+}
+
+.lang{
+    position: absolute;
+    height: min-content;
+    width: min-content;
+    background-color: white;
+    z-index: 500;
+    bottom: -389px;
+    left: 0px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(63, 63, 63);
+    opacity:0;
+    pointer-events: none;
+}
+
+.lang input{
+    margin-bottom: 15px;
+}
+
+.learn{
+    color: rgb(0, 113, 165);
+    margin-left: 25px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.country{
+    color: rgb(0, 113, 165);
+    text-align: center;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.flag{
+    border-radius: 2px;
+}
+
+input[type=radio]#orange {
+    height: 18px;
+    width: 18px;
+    border: 1px solid rgb(255, 0, 55);
+    outline: none;
+    accent-color: rgb(255, 0, 55);
+    display: inline-block;
+    margin: 0px;
+}
+
+label{
+    margin-left: 8px;
+}
+
+.radio-container:hover label{
+    text-decoration: underline;
+    color: chocolate;
+}
+
+.learn:hover,
+.country:hover{
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+}
+
+.radio-container{
+    position: relative;
+    margin-bottom: 10px;
+    pointer-events: none;
+}
+
+.radio-thing{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    z-index: 520;
+    background-color: rgb(255, 0, 55);
+    border-radius: 50px;
+    top: 4px;
+    left: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity, .15s;
+}
+
+.radio-container:hover .radio-thing{
+    opacity: .75;
+}
+
+.tail3{
+    position: absolute;
+    height: 10px;
+    bottom: 0px;
+    right: 11px;
+    z-index: 500;
+    transition: opacity, .15s;
+    opacity:0;
+}
+
+.black-bg-3{
+    position: absolute;
+    top: 55px;
+    bottom: -1200px;
+    left:-1200px;
+    right: -1000px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 400;
+    pointer-events: none;
+    opacity:0;
+    transition: opacity, .15s; 
+}
+
+.flag-language-container:hover .lang,
+.flag-language-container:hover .tail3,
+.flag-language-container:hover .radio-container{
+    opacity: 1; 
+    pointer-events: all;  
+}
+
+.flag-language-container:hover .black-bg-3{
+    opacity: 1;
+}
+
+.middle-border{
+    position: absolute;
+    top: 9px;
+    bottom:8px;
+    right:12px;
+    left:13px;
+    background-color:orange;
+    border: none;
+    border-radius: 6px;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0;
+}
+
+.middle-section:hover .middle-border{
+    opacity:1;
+}
+
+
+
