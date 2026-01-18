@@ -2,7 +2,7 @@
     background-color: #131921;
     display: flex;
     margin: 0;
-    height: 3em;
+    height: 60px;
     white-space: nowrap;
     position: fixed;
     width: 100%;
@@ -24,7 +24,7 @@
 
 .logo{
     display: flex;
-    height: 2.5em;
+    height: 50px;
     align-items: center;
     padding-left: .5em;
     padding-right: .5em;
@@ -84,6 +84,7 @@
 }
 
 .all{
+    height: 39px;
     padding-top:11px;
     padding-bottom: 11px;
     padding-right: 12px;
